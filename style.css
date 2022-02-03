@@ -1,0 +1,131 @@
+body{
+    background-color: #FFF846;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.hero .title p{
+    font-size: 32px;
+    font-family: 'Pattaya', sans-serif;
+    margin: 0px;
+}
+.hero .title H1{
+    font-size: 62px;
+    font-family: 'Pattaya', sans-serif;
+    margin: 0px;
+}
+.title {
+    text-align: center;
+}
+.recipeBoxContain{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin: 0px;
+}
+.recipeInfo{
+    display: flex;
+}
+.recipeBox{
+    margin: 70px 30px 0px 30px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+.recipeBox img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.teks{
+    text-align: center;
+    padding: 80px 20px 0px 20px;
+    margin: ;
+}
+.garis{
+    padding-top: 25px;
+    margin: 0;
+}
+.recipeInfo{
+    margin: 0px 0px 15px 0px;
+    justify-content: space-between;
+}
+.minutes{
+    text-align:left;
+    padding-right: 10px;
+}
+.portion{
+    text-align: right;
+    padding-left: 10px;
+}
+.teks .btn-recipe{
+    text-decoration: none;
+    background-color: black;
+    width: 100%;
+    padding: 10px 35px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.nav-ingredient{
+    top: 0;
+    left: 0;
+    margin: 0px 0px 50px 0px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+}
+.nav-ingredient a{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+.ingredItem{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0px 0px 70px;
+}
+.ingredItem img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.nav-ingredient h1{
+    padding: 50px 0px 0px 0px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 24px;
+}
+.ingredItem p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.steps-col{
+    top: 0;
+    left: 0;
+    margin: 50px 200px 0px 430px;
+}
+.recipeName{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 24px;
+}
+.title img{
+    height: 224px;
+    width: 224px;
+}
+.title p{
+    text-align: center;
+}
+.step{
+    margin: 50px 0px;
+}
